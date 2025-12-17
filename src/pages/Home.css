@@ -1,0 +1,24 @@
+.home {
+  margin-top: 20px;
+}
+
+.hero {
+  background: transparent;
+  padding: 80px 20px 60px;
+  text-align: center;
+}
+
+.hero__content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e2e8f0;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.hero__content p {
+  font-size: 1.3rem;
+  color: #94a3b8;
+  max-width: 700px;
+  margin: 0 auto;
+}

@@ -1,0 +1,66 @@
+.book-card {
+  display: block;
+  text-decoration: none;
+  background: #1e293b;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #334155;
+}
+
+.book-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+  border-color: #6366f1;
+}
+
+.book-card__image {
+  height: 280px;
+  overflow: hidden;
+}
+
+.book-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.book-card:hover .book-card__image img {
+  transform: scale(1.08);
+}
+
+.book-card__content {
+  padding: 24px;
+}
+
+.book-card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0 0 8px 0;
+}
+
+.book-card__author {
+  color: #94a3b8;
+  margin: 0 0 12px 0;
+  font-weight: 500;
+}
+
+.book-card__genre {
+  background: #6366f1;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.book-card__rating {
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
